@@ -30,12 +30,12 @@ int main(){
 		}
 		for(int i = 0; i < k; ++i)
 			if(vec[i] == 0){
-				if (q.size() > 0){
-					vec[i] = q.front();
-					q.pop();
-				}else{
+				//if (q.size() > 0){
+				//	vec[i] = q.front();
+				//	q.pop();
+				//}else{
 					vec[i] = Max++;
-				}
+				
 			}
 		for(int i = 0; i < k; ++i)
 			cout << vec[i] << " ";
